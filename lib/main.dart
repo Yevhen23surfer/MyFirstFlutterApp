@@ -355,3 +355,20 @@ class _HistoryListViewState extends State<HistoryListView> {
     );
   }
 }
+
+class AboutPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('About'),
+      ),
+      body: Center(
+        child: Text(
+          'Copyright © 2024 Yevhen Skopets',
+          style: Theme.of(context).textTheme.bodyText1,
+        ),
+      ),
+    );
+  }
+}

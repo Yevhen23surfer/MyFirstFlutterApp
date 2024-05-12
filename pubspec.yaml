@@ -23,3 +23,4 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  copyright: 'Copyright © 2  Yevhen Skopets 2024'
